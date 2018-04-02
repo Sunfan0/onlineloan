@@ -1,0 +1,33 @@
+.float{
+	position: absolute;
+}
+.hidden{display:none;}
+.image0{
+	position:fixed;
+	background-color:rgba(0,0,0,0.7);
+}
+body{
+	background-color:#e5e7e5 !important;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+.pageTitle{
+	overflow-x: hidden !important;
+	height:45px;
+	background-color:#337ab7;
+	padding-top: 2px;
+}
+.pageTitle .row{
+	color:white !important;
+    font-size: 16px;
+}
+.row{	
+	color:black;
+	padding:10px;
+}
+.colLeft{
+	text-align:left;
+}
+.colRight{
+	text-align:right;
+}

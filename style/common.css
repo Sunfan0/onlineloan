@@ -1,0 +1,63 @@
+/*@charset "UTF-8"*/
+/*base style*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary{ margin:0; padding:0;}
+body{font-size:16px;font-family: "微软雅黑";background:#efefef;}
+a{ color:#111; text-decoration:none;font-size: 12px;font-family:"微软雅黑";}
+img{ border:none; vertical-align:middle; max-width: 100%;}
+ul li{ list-style-type:none;}
+input, select, textarea{outline:none;}
+.clear{clear:both;}
+#header{height:134px;}
+#header .h-top{height:42px;background: #232a36;}
+#header .h-top .t-content{width:1226px;height:42px;margin:0 auto;}
+#header .h-top .t-content .c-fl{width:205px;line-height: 42px;float: left;}
+#header .h-top .t-content .c-fl i{color:#c3c3c3;font-size: 16px;}
+#header .h-top .t-content .c-fl span{padding:0 2px;font-size: 16px;color:#999;}
+#header .h-top .t-content .c-fr{line-height: 42px;float: right;width:700px;height:100%;text-align: right;}
+#header .h-top .t-content .c-fr a.login:hover{text-decoration:underline;}
+#header .h-top .t-content .c-fr a.register:hover{text-decoration:underline;}
+#header .h-top .t-content .c-fr span{color:#c3c3c3;display: inline-block;}
+#header .h-top .t-content .c-fr a{color:#c3c3c3;display: inline-block;padding:0 5px;font-size: 14px;}
+#header .h-top .t-content .c-fr a>span{width:20px;height:20px;position: relative;top:7px;margin:0 10px 0 0;border-radius:50%;background:url("../images/bg.png") no-repeat;}
+#header .h-top .t-content .c-fr a span.mobile{background-position:-33px -106px;transition:0.3s;}
+#header .h-top .t-content .c-fr a span.weixin{background-position:-71px -106px;transition:0.3s;}
+#header .h-top .t-content .c-fr a span.sina{background-position:-107px -106px;transition:0.3s;}
+#header .h-top .h-nav{height:93px;background: #f60;}
+#header .h-top .t-content .c-fr a:hover span.mobile{background-position:-32px -135px;transition:0.3s;}
+#header .h-top .t-content .c-fr a:hover span.weixin{background-position:-71px -135px;transition:0.3s;}
+#header .h-top .t-content .c-fr a:hover span.sina{background-position:-107px -135px;transition:0.3s;}
+/*h-nav start*/
+#header .h-nav{height:93px;background: #fff;}
+#header .h-nav .nav{width:1226px;height:93px;margin:0 auto;}
+#header .h-nav .nav .fl{float:left;width:255px;height:91px;line-height: 91px;}
+#header .h-nav .nav .fl a img{width:190px;height:85px;}
+#header .h-nav .nav .fr{float: right;width:800px;height:91px;line-height: 91px;}
+#header .h-nav .nav .fr ul li{float:left;height:50px;width:112px;text-align: center;line-height: 50px;margin-top:20px;}
+#header .h-nav .nav .fr ul li a{font-size: 18px;display: inline-block;width: 112px;}
+#header .h-nav .nav .fr ul li a>i{font-size: 12px;margin-left: 10px;}
+#header .h-nav .nav .fr>ul>li:hover a{color:#2577e3;}
+#header .h-nav .nav .fr ul li.pos{position: relative;}
+#header .h-nav .nav .fr ul li .hide{width: 112px;height:70px;position: absolute;top:50px;left:-1px;line-height: 35px;background: #fff;display: none;border:1px solid #ddd;}
+#header .h-nav .nav .fr ul li .account{height:105px;}
+#header .h-nav .nav .fr ul li .hide>a{display: block;background: #fff;font-size:14px;text-align: left;text-indent: 12px;}
+#header .h-nav .nav .fr ul li.pos:hover{box-shadow: 0 0 10px #bbb;}
+/*h-nav end*/
+
+/*footer start*/
+.footer{width:1226px;height:140px;margin:10px auto 0;background: #fff;padding:20px 0;}
+.footer .hot-pohone{width:350px;height:140px;float: left;}
+.footer .hot-pohone a{display: block;}
+.footer .hot-pohone a img{margin-left: 60px;}
+.footer .call-our{width:830px;height:140px;float: right;}
+.footer .call-our dl{width:180px;float: left;border-left:1px solid #c7c7c7;padding-left: 20px;}
+.footer .call-our dl dt{color: #59B5E8}
+.footer .call-our dl dt i{padding:0 5px 0 0;}
+.footer .call-our dl dd{line-height: 30px;}
+.footer .call-our dl dd a{color:#616161;}
+.hint{height:30px;font-size: 12px;color:#444;}
+.hint p{text-align: center;line-height: 30px;padding:10px;}
+/*footer end*/
+
+/*container start*/
+#container{width:1226px;background:#efefef;margin:10px auto;}
+/*container end*/

@@ -1,0 +1,55 @@
+.needdetail{width: 100%;}
+.needdetail .detailcontent{width:1226px;margin:2px auto;}
+.needdetail .detailcontent .title h3{height:60px;line-height: 60px;padding-left:20px;font-size:24px;font-weight: 400;border-bottom:2px solid #ccc;background: #fff;}
+.needdetail .detailcontent .detail{background: #fff;}
+.needdetail .detailcontent .detail ul{padding:10px;}
+.needdetail .detailcontent .detail ul li{height:150px;background: #e5e5e5;margin:10px auto;border:1px solid #666;border-radius:3px;}
+/*需求详情 开始*/
+.needdetail .detailcontent .detail .list  table{width: 100%;border-collapse: collapse;border-spacing: 0;}
+.needdetail .detailcontent .detail .list table thead{line-height: 40px;}
+.needdetail .detailcontent .detail .list table thead th{font-weight: 600}
+.needdetail .detailcontent .detail .list table tbody tr {line-height: 60px;}
+.needdetail .detailcontent .detail .list table tbody tr th{height:40px;text-align: center;font-weight: 600;color:#424242;font-size: 20px;line-height: 40px;}
+.needdetail .detailcontent .detail .list table tbody tr td{text-align: center;}
+.needdetail .detailcontent .detail .list table tbody tr td>a{padding:10px 20px;background: #f60;}
+/*需求详情 结束*/
+
+.picdetail{width: 100%;}
+.picdetail .piccontent{width:1226px;margin:2px auto;}
+.picdetail .piccontent .title h3{height:60px;line-height: 60px;padding-left:20px;font-size:24px;font-weight: 400;border-bottom:2px solid #ccc;background: #fff;}
+.picdetail .piccontent .detail{background: #fff;}
+.picdetail .piccontent .detail ul{padding:10px;}
+.picdetail .piccontent .detail ul li{background: #f4f4f4;margin:10px auto;border:1px solid #e5e5e5;border-radius:3px;list-style: none;}
+.picdetail .piccontent .detail ul li table{width: 100%;height:100%;border-collapse: collapse;border-spacing: 0;}
+.picdetail .piccontent .detail ul li table tbody{padding:10px;}
+.picdetail .piccontent .detail ul li table tbody tr {line-height: 60px;}
+.picdetail .piccontent .detail ul li table tbody tr th{width:15%;text-align: right;padding-right:50px;font-weight: 600;color:#424242;font-size: 20px;}
+.picdetail .piccontent .detail ul li table tbody tr td{width:84%;text-align: left;padding-left:30px;}
+
+/*最新资讯 开始*/
+.message{width: 100%;}
+.message .piccontent{width:1226px;margin:10px auto;border:1px solid #bbb;}
+.message .piccontent .title h3{height:60px;line-height: 60px;padding-left:20px;font-size:24px;font-weight: 400;border-bottom:2px solid #ccc;background: #fff;}
+.message .piccontent .list{padding:20px;}
+.message .piccontent .list ul li{background:#e5e5e5;line-height: 40px;border-bottom:1px dashed #ddd;}
+.message .piccontent .list ul li a{color:#414141;font-size: 14px;}
+.message .piccontent .list ul li:hover a{text-decoration:underline;color:blue;}
+
+/*最新资讯 结束*/
+
+/*免费发布信息 开始*/
+.freeissue{width:100%;margin-top:10px;}
+.freeissue .issue{width:1226px;margin:0 auto;background: #fff;}
+.freeissue .issue .title{line-height: 45px;}
+.freeissue .issue .title h3{font-weight: 400px;font-size: 18px;margin-left: 20px;border-bottom: 1px dashed #ddd;}
+.freeissue .issue .content{padding:10px 20px;}
+.freeissue .issue .content .c-messages{border:1px solid #e4e4e4;background: #fbfbfb;border-radius:3px;}
+.freeissue .issue .content .c-messages p{height:40px;line-height: 40px;margin:20px 0;}
+.freeissue .issue .content .c-messages p label{width:200px;text-align:right;display: inline-block;}
+.freeissue .issue .content .c-messages p input{width:600px;display: inline-block;height:30px;border:1px solid #777;border-radius: 3px;text-indent: 10px;font-size: 16px;color:#505050;outline: none;}
+.freeissue .issue .content .c-messages p input:hover{box-shadow:0 0 5px #2352fd;}
+.freeissue .issue .content .c-messages p input:focus{box-shadow:0 0 5px #2352fd;}
+.freeissue .issue .content .c-messages p.send{padding-top:10px;text-align:center;}
+.freeissue .issue .content .c-messages p span{background: #f60;padding:8px 20px;border-radius: 3px;color:#222;transition:background .3s ease;}
+.freeissue .issue .content .c-messages p span:hover{color:#111;background:#f3843a;cursor:pointer;transition:background .3s ease;}
+/*免费发布信息 结束*/
